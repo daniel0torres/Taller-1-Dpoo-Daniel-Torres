@@ -131,11 +131,11 @@ public class ConsolaOlimpicos
 		Atleta resp = calculadora.buscarAtleta(atleta);
 		if (resp != null)
 		{
-			System.out.println(resp.darPais().darNombre());
+			System.out.println("El pais al que representa "+ atleta + " es " +resp.darPais().darNombre());
 		}
 		else
 		{
-			System.out.println("Este atleta no se encuentro.");
+			System.out.println("Este atleta no se encontro.");
 		}
 		
 	}
